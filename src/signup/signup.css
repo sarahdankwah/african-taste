@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainsignup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url('./image/cutfish.jpg');
+    background-color: blueviolet;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+
+.colordiv {
+
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.formcontainer {
+    /* background-color: black; */
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section input {
+    width: 400px;
+    height: 30px;
+    outline: none;
+    margin-bottom: 10px;
+
+}
+
+.formcontainer button {
+    width: 400px;
+    height: 30px;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.formsection1 {
+    /* background-color: violet; */
+    flex: 0.2;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.formsection2 {
+    /* background-color: blue; */
+    flex: 0.6;
+    padding-left: 20px;
+    
+
+}
+
+.fomrsection3 {
+    /* background-color: darkorange; */
+    flex: 0.2;
+
+}
+
+.formcontainer label {
+    display: block;
+    text-align: left !important;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* .signup1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+} */
+
+/* .buttondiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+   
+} */
+
+/* .btn{
+    margin-bottom: 20px;
+} */

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainsignin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../image/african-market-irene-jonker.jpg');
+    background-color: blueviolet;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    
+}
+
+
+.colordiv {
+
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.container {
+    /* background-color: black; */
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.section1 {
+    margin-bottom: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+
+.section2 input {
+    width: 400px;
+    height: 20px;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.inbut { 
+    display: flex;
+    width: 500px;
+    align-items: center;
+    border: none;
+    justify-content: center;
+    outline: none;
+    color: white;
+    height: 200px;
+
+    cursor: pointer;
+    height: 50px;
+    margin-top: 150px;
+   
+} 
+
+button{
+    width: 300px;
+    height: 40px;
+}
+
+
+.formsection1 {
+    /* background-color: violet; */
+    flex: 0.2;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section2 {
+    /* background-color: blue; */
+    flex: 0.6;
+    padding-left: 20px;
+    
+
+}
+
+.container label {
+    display: block;
+    text-align: left !important;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* .signup1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+} */
+
+/* .buttondiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+   
+} */
+
+/* .btn{
+    margin-bottom: 20px;
+} */

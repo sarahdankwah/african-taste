@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+.Landingpage1{
+   background-size: cover;
+   background-position: center;
+    background-image: url('../image/young-african-woman-selling-local-market-smiling-using-her-mobile-phone-166609854.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.landingpage2{
+    flex: 0.3;
+    display: flex;
+    justify-content: space-between;
+   
+
+    
+}
+.list{
+    display: flex;
+    color: white;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* margin-left: 7px; */
+
+    
+}
+
+.afr{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    color: white;
+    
+}
+
+li{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.landingpage3{
+    display: flex;
+    flex: 0.5;
+    color: white;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* button{
+   
+    
+    /* justify-content: space-between; */
+
+
+    
+
+.landingpage4{
+    display: flex;
+    flex: 0.2;
+    align-content: center;
+    /* background-color: chocolate; */
+    /* margin: 10px; */
+    justify-content: space-between;
+    color: white;
+}
+ .mybtn{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+     width: 400px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    margin-top: 100px;
+    
+} 
